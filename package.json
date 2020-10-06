@@ -1,0 +1,27 @@
+{
+  "name": "person-integration-test",
+  "version": "1.0.0",
+  "description": "projeto para testes de integracao  person",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "test",
+    "person",
+    "mocha"
+  ],
+  "author": "leandro silveira",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  },
+  "dependencies": {
+    "async-waterfall": "^0.1.5",
+    "casual": "^1.6.2",
+    "gerar-cpf": "^2.0.3",
+    "request": "^2.79.0",
+    "should": "^11.2.0"
+  }
+}
